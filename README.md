@@ -11,6 +11,9 @@ This project bootstraps a local ethereum chain with common contracts for testing
 
 ### Docker Installation
 
+    cp .env-example to .env
+    #update env with AWS vars
+
     docker-compose build chain
     docker-compose up chain 
     

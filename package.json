@@ -8,7 +8,7 @@
         "upload": "sh src/scripts/upload.sh",
         "download": "sh src/scripts/download.sh",
         "migrate": "truffle migrate",
-        "background": "chain > logs.txt 2>&1 &",
+        "background": "npm run chain > logs.txt 2>&1 &",
         "console": "truffle console",
         "tail": "tail -f logs.txt",
         "test-server": "ganache-cli -p 8545 --networkId 50  > test-logs.txt 2>&1 &",
