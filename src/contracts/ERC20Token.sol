@@ -2,7 +2,9 @@ pragma solidity ^0.4.23;
 
 import { Token } from "./Token.sol";
 
+
 contract ERC20Token is Token {
+
 
     mapping (address => uint) balances;
     mapping (address => mapping (address => uint)) allowed;

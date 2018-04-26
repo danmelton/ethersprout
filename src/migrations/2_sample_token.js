@@ -1,5 +1,5 @@
-var SampleToken = artifacts.require("./SampleToken.sol");
+const SampleToken = artifacts.require('./SampleToken.sol')
 
-module.exports = function(deployer) {
-  deployer.deploy(SampleToken);
-};
+module.exports = (deployer) => {
+  deployer.deploy(SampleToken)
+}
