@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "chain": "ganache-cli -p 8545 --networkId 50 --db ./db -m \"$MNEMONIC\"",
-        "start": "run-s background migrate seed tail",
+        "start": "run-s background migrate tail",
         "upload": "sh src/scripts/upload.sh",
         "download": "sh src/scripts/download.sh",
         "migrate": "truffle migrate",

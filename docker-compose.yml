@@ -1,7 +1,6 @@
 version: '3'
 services:
   chain:
-    container_name: ethersprout
     build: ./
     environment:
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY}
