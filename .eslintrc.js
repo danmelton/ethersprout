@@ -12,5 +12,6 @@ module.exports = {
         "contract": true,
         "it": true,
         "assert": true,
+        "web3": true
     }
 };
